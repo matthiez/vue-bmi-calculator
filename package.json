@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-typescript": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
+    "sass": "^1.23.3",
+    "sass-loader": "^8.0.0",
+    "typescript": "^3.6.4",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-property-decorator": "^8.3.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "name": "vue-bmi-calculator",
+  "main": "src/BmiCalculator.vue",
+  "module": "dist/vue-bmi-calculator.common.js",
+  "peerDependencies": {
+    "vue": "^2.6.10"
+  },
+  "scripts": {
+    "build": "vue-cli-service build --target lib ./src/BmiCalculator.vue --inline-vue",
+    "serve": "vue-cli-service serve"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.3.0"
+}
